@@ -13,10 +13,10 @@ This repository (**`WiraDev`**) serves as the **Main Orchestrator Repository** c
 
 | Service / Sub-repo | Description | Tech Stack | Repository Link |
 | :--- | :--- | :--- | :--- |
-| **`wiradev-mobile`** | Cross-platform Mobile Client | Flutter, Dart, Riverpod, Material 3 | [GitHub: wiradev-mobile](https://github.com/reon01425-glitch/wiradev-mobile) |
-| **`wiradev-fe`** | Web Dashboard & Interactive Simulation | Next.js 15, React 19, TypeScript, Tailwind | [GitHub: wiradev-fe](https://github.com/reon01425-glitch/wiradev-fe) |
-| **`wiradev-be`** | REST API, Business Logic & DB Engine | Node.js, Express, TypeScript, MySQL | [GitHub: wiradev-be](https://github.com/reon01425-glitch/wiradev-be) |
-| **`wiradev-ai`** | Deep Learning Inference & NLP Model | Python 3.10, Flask, TensorFlow, Keras, Git LFS | [GitHub: wiradev-ai](https://github.com/reon01425-glitch/wiradev-ai) |
+| **`wiradev-mobile`** | Cross-platform Mobile Client | Flutter, Dart, Riverpod, Material 3 | [GitHub: wiradev-mobile](https://github.com/cipta77/wiradev-mobile) |
+| **`wiradev-fe`** | Web Dashboard & Interactive Simulation | Next.js 15, React 19, TypeScript, Tailwind | [GitHub: wiradev-fe](https://github.com/cipta77/wiradev-fe) |
+| **`wiradev-be`** | REST API, Business Logic & DB Engine | Node.js, Express, TypeScript, MySQL | [GitHub: wiradev-be](https://github.com/cipta77/wiradev-be) |
+| **`wiradev-ai`** | Deep Learning Inference & NLP Model | Python 3.10, Flask, TensorFlow, Keras, Git LFS | [GitHub: wiradev-ai](https://github.com/cipta77/wiradev-ai) |
 
 ---
 
@@ -69,7 +69,7 @@ graph TD
 To clone the main repository along with all 4 sub-repositories populated:
 
 ```bash
-git clone --recurse-submodules https://github.com/reon01425-glitch/WiraDev.git
+git clone --recurse-submodules https://github.com/cipta77/WiraDev.git
 cd WiraDev
 ```
 
@@ -138,11 +138,11 @@ python app.py
 
 ## 🔗 Direct Repository Links
 
-- **Main Repository**: [https://github.com/reon01425-glitch/WiraDev](https://github.com/reon01425-glitch/WiraDev)
-- **Mobile Sub-repo**: [https://github.com/reon01425-glitch/wiradev-mobile](https://github.com/reon01425-glitch/wiradev-mobile)
-- **Backend Sub-repo**: [https://github.com/reon01425-glitch/wiradev-be](https://github.com/reon01425-glitch/wiradev-be)
-- **Frontend Sub-repo**: [https://github.com/reon01425-glitch/wiradev-fe](https://github.com/reon01425-glitch/wiradev-fe)
-- **AI Sub-repo**: [https://github.com/reon01425-glitch/wiradev-ai](https://github.com/reon01425-glitch/wiradev-ai)
+- **Main Repository**: [https://github.com/cipta77/WiraDev](https://github.com/cipta77/WiraDev)
+- **Mobile Sub-repo**: [https://github.com/cipta77/wiradev-mobile](https://github.com/cipta77/wiradev-mobile)
+- **Backend Sub-repo**: [https://github.com/cipta77/wiradev-be](https://github.com/cipta77/wiradev-be)
+- **Frontend Sub-repo**: [https://github.com/cipta77/wiradev-fe](https://github.com/cipta77/wiradev-fe)
+- **AI Sub-repo**: [https://github.com/cipta77/wiradev-ai](https://github.com/cipta77/wiradev-ai)
 
 ---
 

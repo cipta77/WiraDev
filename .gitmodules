@@ -1,12 +1,12 @@
 [submodule "wiradev-mobile"]
 	path = wiradev-mobile
-	url = https://github.com/reon01425-glitch/wiradev-mobile.git
+	url = https://github.com/cipta77/wiradev-mobile.git
 [submodule "wiradev-be"]
 	path = wiradev-be
-	url = https://github.com/reon01425-glitch/wiradev-be.git
+	url = https://github.com/cipta77/wiradev-be.git
 [submodule "wiradev-fe"]
 	path = wiradev-fe
-	url = https://github.com/reon01425-glitch/wiradev-fe.git
+	url = https://github.com/cipta77/wiradev-fe.git
 [submodule "wiradev-ai"]
 	path = wiradev-ai
-	url = https://github.com/reon01425-glitch/wiradev-ai.git
+	url = https://github.com/cipta77/wiradev-ai.git
