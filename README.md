@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/LogoXtextWira.png" alt="WiraDev Logo" width="650" />
+</p>
+
 # WiraDev - The Next-Generation Career & Talent Intelligence Ecosystem
 
 > **One Main Ecosystem Orchestrating 4 Dedicated Micro-Repositories**  
