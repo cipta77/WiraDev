@@ -4,20 +4,19 @@
 
 # WiraDev - The Next-Generation Career & Talent Intelligence Ecosystem
 
-> **One Main Ecosystem Orchestrating 4 Dedicated Micro-Repositories**  
+> **One Main Ecosystem Orchestrating 3 Dedicated Micro-Repositories**  
 > Developed for **UIN Information Competition (UINIC) 8.0 - Web Development Competition 2026**
 
 ---
 
 ## 📌 Executive Summary
 
-**WiraDev** is an integrated AI-driven career acceleration and simulation platform designed to bridge the gap between job seekers and industry expectations. Through deep learning, automated CV and transcript screening, real-time interview simulations, and cross-platform accessibility, WiraDev empowers candidates to evaluate their skills and master modern recruitment pipelines.
+**WiraDev** is an integrated AI-driven career acceleration and simulation platform designed to bridge the gap between job seekers and industry expectations. Through deep learning, automated CV and transcript screening, real-time interview simulations, and modern web accessibility, WiraDev empowers candidates to evaluate their skills and master modern recruitment pipelines.
 
-This repository (**`WiraDev`**) serves as the **Main Orchestrator Repository** coordinating 4 specialized sub-repositories via **Git Submodules**:
+This repository (**`WiraDev`**) serves as the **Main Orchestrator Repository** coordinating 3 specialized sub-repositories via **Git Submodules**:
 
 | Service / Sub-repo | Description | Tech Stack | Repository Link |
 | :--- | :--- | :--- | :--- |
-| **`wiradev-mobile`** | Cross-platform Mobile Client | Flutter, Dart, Riverpod, Material 3 | [GitHub: wiradev-mobile](https://github.com/cipta77/wiradev-mobile) |
 | **`wiradev-fe`** | Web Dashboard & Interactive Simulation | Next.js 15, React 19, TypeScript, Tailwind | [GitHub: wiradev-fe](https://github.com/cipta77/wiradev-fe) |
 | **`wiradev-be`** | REST API, Business Logic & DB Engine | Node.js, Express, TypeScript, MySQL | [GitHub: wiradev-be](https://github.com/cipta77/wiradev-be) |
 | **`wiradev-ai`** | Deep Learning Inference & NLP Model | Python 3.10, Flask, TensorFlow, Keras, Git LFS | [GitHub: wiradev-ai](https://github.com/cipta77/wiradev-ai) |
@@ -28,9 +27,8 @@ This repository (**`WiraDev`**) serves as the **Main Orchestrator Repository** c
 
 ```mermaid
 graph TD
-    subgraph Clients["Frontend & Client Applications"]
+    subgraph Clients["Frontend & Client Application"]
         WEB["wiradev-fe<br/>(Next.js Web Dashboard)"]
-        MOBILE["wiradev-mobile<br/>(Flutter iOS / Android / Desktop)"]
     end
 
     subgraph BackendGateway["Core Backend Gateway"]
@@ -51,8 +49,6 @@ graph TD
     end
 
     WEB -->|REST / HTTP| API
-    MOBILE -->|REST / HTTP| API
-    MOBILE -.->|Fallback Direct| LLM
 
     API --> AUTH
     API --> SIM
@@ -70,7 +66,7 @@ graph TD
 
 ### 1. Clone the Complete Ecosystem (Recursive Submodules)
 
-To clone the main repository along with all 4 sub-repositories populated:
+To clone the main repository along with all 3 sub-repositories populated:
 
 ```bash
 git clone --recurse-submodules https://github.com/cipta77/WiraDev.git
@@ -106,15 +102,7 @@ This automatically boots:
 
 ## 📂 Sub-Repository Details & Local Development
 
-### 1. `wiradev-mobile` (Mobile Client)
-Cross-platform native mobile experience with responsive interview simulation UI, CV analyzer results, and candidate dashboards.
-```bash
-cd wiradev-mobile
-flutter pub get
-flutter run
-```
-
-### 2. `wiradev-fe` (Web Application)
+### 1. `wiradev-fe` (Web Application)
 Modern, accessible Next.js web application with dark-mode support, English interview simulation, and analytics.
 ```bash
 cd wiradev-fe
@@ -122,7 +110,7 @@ pnpm install
 pnpm run dev
 ```
 
-### 3. `wiradev-be` (REST API Server)
+### 2. `wiradev-be` (REST API Server)
 Scalable TypeScript backend powering data synchronization, authentication, and Swagger API documentation.
 ```bash
 cd wiradev-be
@@ -130,7 +118,7 @@ pnpm install
 pnpm run dev
 ```
 
-### 4. `wiradev-ai` (AI Inference Service)
+### 3. `wiradev-ai` (AI Inference Service)
 Machine learning service hosting deep learning models for classification, candidate scoring, and transcript intelligence.
 ```bash
 cd wiradev-ai
@@ -143,9 +131,8 @@ python app.py
 ## 🔗 Direct Repository Links
 
 - **Main Repository**: [https://github.com/cipta77/WiraDev](https://github.com/cipta77/WiraDev)
-- **Mobile Sub-repo**: [https://github.com/cipta77/wiradev-mobile](https://github.com/cipta77/wiradev-mobile)
-- **Backend Sub-repo**: [https://github.com/cipta77/wiradev-be](https://github.com/cipta77/wiradev-be)
 - **Frontend Sub-repo**: [https://github.com/cipta77/wiradev-fe](https://github.com/cipta77/wiradev-fe)
+- **Backend Sub-repo**: [https://github.com/cipta77/wiradev-be](https://github.com/cipta77/wiradev-be)
 - **AI Sub-repo**: [https://github.com/cipta77/wiradev-ai](https://github.com/cipta77/wiradev-ai)
 
 ---

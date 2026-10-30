@@ -19,9 +19,8 @@ git submodule sync --recursive
 git submodule update --init --recursive
 
 echo "✅ All submodules checked out successfully:"
-echo "  - wiradev-mobile : Mobile Application (Flutter)"
-echo "  - wiradev-be     : Backend API (Node.js/Express/TypeScript)"
 echo "  - wiradev-fe     : Frontend Web App (Next.js/React/Tailwind)"
+echo "  - wiradev-be     : Backend API (Node.js/Express/TypeScript)"
 echo "  - wiradev-ai     : AI & Deep Learning Inference (Flask/Keras)"
 
 echo ""
@@ -30,9 +29,8 @@ echo "  1. To run all containerized services via Docker:"
 echo "     docker compose up --build"
 echo ""
 echo "  2. Or navigate into any specific service directory to run locally:"
-echo "     - cd wiradev-mobile && flutter run"
-echo "     - cd wiradev-be && pnpm install && pnpm run dev"
 echo "     - cd wiradev-fe && pnpm install && pnpm run dev"
+echo "     - cd wiradev-be && pnpm install && pnpm run dev"
 echo "     - cd wiradev-ai && pip install -r requirements.txt && python app.py"
 echo ""
 echo "🎉 WiraDev environment is ready!"

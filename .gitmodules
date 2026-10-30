@@ -1,6 +1,3 @@
-[submodule "wiradev-mobile"]
-	path = wiradev-mobile
-	url = https://github.com/cipta77/wiradev-mobile.git
 [submodule "wiradev-be"]
 	path = wiradev-be
 	url = https://github.com/cipta77/wiradev-be.git
